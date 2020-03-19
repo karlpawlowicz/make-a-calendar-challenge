@@ -91,8 +91,6 @@ class Calendar {
     };
 
     createEventHelper(start);
-
-    return;
   };
 }
 
