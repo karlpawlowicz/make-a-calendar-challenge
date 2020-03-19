@@ -1,0 +1,71 @@
+@import url('https://use.typekit.net/jfb3jnd.css');
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: aktiv-grotesk, sans-serif;
+}
+
+.calendar {
+  display: flex;
+  height: 72rem;
+  justify-content: center;
+  margin-top: 2.4rem;
+}
+
+.calendar__times {
+  color: #a6a6a6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 2.4rem 0 0;
+  text-align: right;
+}
+
+.calendar__time {
+  font-size: 1.4rem;
+  list-style: none;
+}
+
+.calendar__time:nth-child(odd) {
+  font-size: 1.7rem;
+}
+
+.calendar__time strong {
+  color: #676767;
+}
+
+.events {
+  background: #ebebeb;
+  border-left: 0.8rem solid #e0e0e0;
+  padding: 0 1rem;
+  width: 60rem;
+}
+
+.events__container {
+  height: 100%;
+  position: relative;
+}
+
+.event {
+  background: #fff;
+  border-left: 1.2rem solid #606ea2;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+}
+
+.event__heading {
+  color: #606ea2;
+  font-size: 1.7rem;
+  margin: 1.6rem 0 0.8rem 0.8rem;
+}
+
+.event__paragraph {
+  color: #aaa;
+  font-size: 1.4rem;
+  margin: 0 0 0 0.8rem;
+}

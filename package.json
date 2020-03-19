@@ -1,0 +1,21 @@
+{
+  "name": "make-a-calendar-challenge",
+  "version": "0.0.1",
+  "description": "Make a calendar challenge",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:karlpawlowicz/make-a-calendar-challenge.git"
+  },
+  "author": {
+    "name": "Karl Pawlowicz",
+    "email": "karlpawlowicz@gmail.com",
+    "url": "https://karl.dev"
+  },
+  "license": "ISC",
+  "private": true,
+  "homepage": "https://github.com/karlpawlowicz/make-a-calendar-challenge#readme",
+  "bugs": {
+    "url": "https://github.com/karlpawlowicz/make-a-calendar-challenge/issues"
+  }
+}
